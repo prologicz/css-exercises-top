@@ -1,0 +1,14 @@
+.click, .alt_click {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    border-color: aliceblue;
+}
+
+.click {
+    background-color: black;
+    color: white;
+}
+
+.alt_click {
+    background-color: yellow;
+}
