@@ -1,0 +1,20 @@
+* {
+    font-family: Ubuntu;
+}
+
+div p{
+    background-color: yellow;
+}
+
+.container .text{
+    color: red;
+}
+
+
+div .text{
+    text-align: center;
+}
+
+.container p{
+    font-size: 20px;
+}
