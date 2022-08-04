@@ -68,7 +68,9 @@ body {
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding: -10px;
+  justify-self: flex-end;
+
+
 }
 
 .button-group {
