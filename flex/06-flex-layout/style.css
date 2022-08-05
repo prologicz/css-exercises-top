@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -25,3 +26,73 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: #ffffff;
+}
+
+.footer, .left-links, .right-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-links {
+  margin-left: auto;
+  margin-right: 20px;
+  column-gap: 20px;
+}
+
+.left-links {
+  margin-right: auto;
+  margin-left: 20px;
+  column-gap: 20px;
+}
+
+.content {
+  justify-self: center;
+  align-self: center;
+  flex: 3;
+  padding-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input, .buttons {
+  justify-self: center;
+  align-self: center;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: rgb(71, 66, 66);
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color: #e4e7ee;
+}
+
